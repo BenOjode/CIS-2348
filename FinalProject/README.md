@@ -23,3 +23,23 @@ Final Project Part 1
    d. DamagedInventory.csv –all items that are damaged. Each row should contain : item ID,
        manufacturer name, item type, price, and service date. The items must appear in the
        order of most expensive to least expensive.
+
+
+Final Project Part 2
+  Query the user of an item by asking for manufacturer and item type with a single query.
+  
+i. Print a message(“No such item in inventory”) if either the manufacturer or the
+   item type are not in the inventory, more that one of either type is submitted or
+   the combination is not in the inventory. Ignore any other words, so “nice Apple
+   computer” is treated the same as “Apple computer”.
+   
+ii. Print “Your item is:” with the item ID, manufacturer name, item type and price
+    on one line. Do not provide items that are past their service date or damaged. If
+    there is more than one item, provide the most expensive item.
+    
+iii. Also print “You may, also, consider:” and print information about the same item
+     type from another manufacturer that closes in price to the output item. Only
+     print this if the same item from another manufacturer is in the inventory and is
+     not damaged nor past its service date.
+     
+iv.  After output for one query, query the user again. Allow ‘q’ to quit.
